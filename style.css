@@ -1,0 +1,227 @@
+/* Custom CSS for styling buttons and other elements */
+
+/* Style for buttons */
+/* Define background images for buttons */
+/* Define background images for buttons */
+
+/* styles.css */
+
+/* Form container */
+body {
+    font-family: Arial, sans-serif; /* Specify font family */
+    background-color: #f0f0f0; /* Background color */
+    padding: 20px; /* Add padding */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Form */
+form {
+    max-width: 600px; /* Set maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: #fff; /* Form background color */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* Form labels */
+label {
+    display: block; /* Display labels as block elements */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 5px; /* Add margin bottom */
+}
+
+/* Form input fields */
+input[type="text"],
+textarea,
+select {
+    width: 100%; /* Set width to 100% */
+    padding: 5px; /* Add padding */
+    margin-bottom: 15px; /* Add margin bottom */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Form submit button */
+input[type="submit"] {
+    background-color:rgb(43, 35, 75); /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    width:25%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0d243d; /* Button background color on hover */
+}
+
+
+
+/* Style for form inputs */
+.form-control {
+    border-color: #ced4da;
+}
+
+/* Style for error messages */
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+/* Style for card titles */
+.card-title {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style for card text */
+.card-text {
+    color: #555;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding-top: 5px; /* Adjust top padding as needed */
+}
+
+.header {
+    margin-bottom: 250px; /* Add margin to separate header from buttons */
+    color: #f0e1e1;
+    font-size: 10;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+    padding: 2%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.btn {
+    margin: 0 10px;
+    border-radius: 50;
+}
+
+/* style.css */
+
+/* Primary button */
+.btn-primary {
+    background-color: hsl(211, 46%, 27%);
+    border-color:hsl(211, 46%, 27%);
+    color: #fff;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+    border-color: #0056b3;
+}
+
+/* Success button */
+.btn-success {
+    background-color: hsl(211, 46%, 27%);
+    border-color: hsl(211, 46%, 27%);
+    color: #fff;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.btn-success:hover {
+    background-color: #0056b3; /* Darker shade of green on hover */
+    border-color: #0056b3;
+}
+/* Define section styles */
+.section {
+    width: 100;
+}
+
+/* Style for section 1 */
+.section1 {
+    background-color:rgb(53, 53, 78);
+    height: 100px;
+    position: relative; /* To position the menu button */
+}
+
+/* Style for section 4 */
+.section4 {
+    background-color:transparent;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.menu-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9999; /* Ensure it appears above other content */
+}
+
+.menu-button button {
+    border-radius: 50%; /* Makes it oval-shaped */
+    background-color:rgb(234, 194, 95);
+    color: rgb(43, 35, 75);
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    outline: none;
+}
+
+.menu-button button:hover {
+    background-color: rgb(111, 164, 201); /* Change color on hover */
+}
+
+.menu-options {
+    display: none;
+    position: absolute;
+    top: 60px; /* Adjust according to your design */
+    right: 0;
+    background-color:rgb(234, 194, 95);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.menu-options a {
+    color:rgb(43, 35, 75);
+    padding: 10px 0;
+    display: block;
+    text-decoration: none;
+}
+
+.menu-options a:hover {
+    background-color: rgb(111, 164, 201);
+}
+
+.show {
+    display: block;
+}
+.close {
+    color: #142649;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
